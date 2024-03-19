@@ -1,9 +1,12 @@
 import React from "react";
+import Prova from "./components/Prova";
 function App() {
   return (
-    <div className="App">
-      <h1>Ciaooo</h1>
-    </div>
+    <>
+      <section>
+        <Prova />
+      </section>
+    </>
   );
 }
 
