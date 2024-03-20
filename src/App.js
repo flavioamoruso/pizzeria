@@ -1,11 +1,13 @@
 import React from "react";
-import Prova from "./components/Prova";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
 function App() {
   return (
     <>
-      <section>
-        <Prova />
-      </section>
+      <div className="App">
+        <Navbar />
+        <Slider />
+      </div>
     </>
   );
 }
