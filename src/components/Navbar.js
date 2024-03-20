@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 const StyledNav = styled.div`
   background-color: #fff7df;
+  h3 {
+    color: #f24822;
+  }
 `;
 
 const Navbar = () => {
@@ -13,7 +16,7 @@ const Navbar = () => {
           <div className="container nav-container">
             <header className="nav-header">
               <span className="nav-brand">
-                <h3>PizzaJ</h3>
+                <h3 style={{ cursor: "pointer" }}>PizzaJ</h3>
               </span>
               <span>
                 <a href="#menu">Menu'</a>
