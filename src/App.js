@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Slider } from "./components/Slider";
+import About from "./components/About";
 function App() {
   return (
     <>
-      <div className="App">
+      <section>
         <Navbar />
         <Slider />
-      </div>
+        <About />
+      </section>
     </>
   );
 }

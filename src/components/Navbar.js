@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledNav = styled.div`
-  background-color: #fff7df;
+  background-color: var(--primary);
   h3 {
-    color: #f24822;
+    color: var(--secondary);
   }
 `;
 
