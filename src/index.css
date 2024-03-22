@@ -8,7 +8,7 @@
     /*Scala di Grigi*/
     --extra-light-gray: #f8f9faff;
     --soft-light-gray: #f2f2f3;
-    --light-gray: rgb(158, 164, 169);
+    --light-gray: rgb(0, 0, 0);
     --primary-gray: #adb5bdff;
     --soft-dark-gray: #89949e;
     --dark-gray: #6c757dff;
@@ -404,3 +404,136 @@ ul {
   color: var(--secondary) !important;
 }
 
+
+/* MENU STYLE */
+.vetrina {
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  gap: 1rem;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.gelato {
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  grid-template-columns: 1fr auto;
+  background-color: var(--card-light-bg-color);
+  gap: 1rem;
+  align-items: center;
+  box-shadow: var(--light-shadow);
+  padding: 0.8rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.gelato:hover {
+  background-color: var(--light-blue);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.img-container {
+  border: 4px solid white;
+  width: 135px;
+  height: 100px;
+  border-radius: var(--radius);
+}
+
+.img {
+  position: relative;
+  box-shadow: var(--light-shadow);
+  border-radius: var(--radius);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.prd-info {
+  align-self: flex-start;
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  gap: 0.2rem;
+}
+
+.prd-header {
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.prd-prezzo {
+  padding: 0.1rem 0.225rem;
+  border-radius: var(--radius);
+  background-color: var(--secondary-blue);
+  color: var(--text-color);
+}
+
+.prd-info p {
+  color: var(--soft-dark);
+  font-size: 0.665rem;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
+  .img-container {
+    height: 125px;
+    width: 150px;
+  }
+
+  .vetrina {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .prd-info {
+    gap: 0.8rem;
+  }
+  .prd-info p {
+    font-size: 0.765rem;
+  }
+}
+
+.btn-group {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-selector {
+  background-color: transparent;
+  box-shadow: unset;
+  border-radius: unset;
+  border-bottom: 2px solid transparent;
+}
+
+.btn-selector:hover {
+  border-bottom: 2px solid var(--primary-blue);
+}
+
+.active {
+  border-bottom: 2px solid var(--secondary-blue);
+}
+
+/* END STYLE MENU */
