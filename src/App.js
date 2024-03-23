@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { Slider } from "./components/Slider";
 import About from "./components/About";
 import PizzaScreen from "./screen/PizzaScreen";
+import PiadinaScreen from "./screen/PiadinaScreen";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <Slider />
         <About />
         <PizzaScreen />
+        <PiadinaScreen />
       </section>
     </>
   );

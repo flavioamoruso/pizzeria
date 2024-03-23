@@ -17,7 +17,8 @@ const About = () => {
               <div className="home-hero-title">
                 <p className="brand-color">Salve a tutti</p>
                 <h3 className="brand-color">
-                  Benvenuti nella nostra pizzeria digitale
+                  Benvenuti nella nostra pizzeria digitale innovativa, "NON SOLO
+                  PIZZA"
                 </h3>
               </div>
 
