@@ -2,7 +2,7 @@ import React from "react";
 export function Pizze(props) {
   return (
     <>
-      <div class="card">
+      <div class="card" id="pizza">
         <div class="header">
           <div>
             <a class="title" href="#">

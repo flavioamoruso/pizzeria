@@ -30,6 +30,24 @@ const About = () => {
                 Qui sotto puoi trovare tutto il nostro menu' alla portata di
                 tutti
               </p>
+              <p>Cosa scegli?</p>
+              <span className="row">
+                <a className="btn" href="#pizza">
+                  Pizza
+                </a>
+                <a className="btn" href="#piadina">
+                  Piadina
+                </a>
+                <a className="btn" href="#primi">
+                  Primi piatti
+                </a>
+                <a className="btn" href="#secondi">
+                  Secondi piatti
+                </a>
+                <a className="btn" href="#dessert">
+                  Dessert
+                </a>
+              </span>
             </div>
             <div className="home-hero-img">
               <Lottie
