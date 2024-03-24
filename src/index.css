@@ -120,6 +120,15 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
   }
+
+  .btn-primary{
+    background-color: var(--main);
+  }
+
+  .btn-primary:hover{
+    background-color: var(--secondary) !important;
+    transition: 0.5s;
+  }
   
   .btn:hover{
     background-color: black;

@@ -32,25 +32,23 @@ const About = () => {
               </p>
               <p>Cosa scegli?</p>
               <span className="row">
-                <a className="btn" href="#pizza">
+                <a className="btn btn-primary" href="#pizza">
                   Pizza
                 </a>
-                <a className="btn" href="#piadina">
+                <a className="btn btn-primary" href="#piadina">
                   Piadina
                 </a>
-                <a className="btn" href="#primi">
-                  Primi piatti
+                <a className="btn btn-primary" href="#primi">
+                  Primi
                 </a>
-                <a className="btn" href="#secondi">
-                  Secondi piatti
-                </a>
-                <a className="btn" href="#dessert">
-                  Dessert
+                <a className="btn btn-primary" href="#secondi">
+                  Secondi
                 </a>
               </span>
             </div>
             <div className="home-hero-img">
               <Lottie
+                style={{ marginBottom: "14px" }}
                 className=""
                 options={{
                   loop: true,
