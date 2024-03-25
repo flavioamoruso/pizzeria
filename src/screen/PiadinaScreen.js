@@ -4,14 +4,13 @@ import contents from "../utils/piadina";
 import styled from "styled-components";
 
 const StyledPiadina = styled.div`
-  background-color: var(--main);
+  background-color: var(--primary);
 `;
 
 export default function App() {
   return (
     <>
       <StyledPiadina>
-        <hr />
         <section>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <h2 style={{ marginTop: "14px" }}>Piadine 🌯</h2>

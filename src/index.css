@@ -108,6 +108,7 @@ ul {
   
   .btn {
     /* display: inline-block; */
+    margin-left: 12px;
     color: white;
     border: none;
     padding: 0.4rem 1.25rem;
@@ -122,12 +123,15 @@ ul {
   }
 
   .btn-primary{
-    background-color: var(--main);
+    background-color: var(--secondary);
   }
 
   .btn-primary:hover{
-    background-color: var(--secondary) !important;
+    background-color: var(--main) !important;
+    color: black;
     transition: 0.5s;
+    margin-right: 14px;
+    margin-left: 14px;
   }
   
   .btn:hover{
@@ -432,8 +436,6 @@ ul {
   position: relative;
   display: block;
   overflow: hidden;
-  border: 2px solid red;
-  border-radius: 0.5rem;
   padding: 1rem;
   background-color: #fff7df;
   cursor:pointer;

@@ -15,7 +15,9 @@ const About = () => {
           <div className="home-hero">
             <div className="home-hero-text">
               <div className="home-hero-title">
-                <p className="brand-color">Salve a tutti</p>
+                <p className="brand-color" style={{ marginTop: "14px" }}>
+                  Salve a tutti
+                </p>
                 <h3 className="brand-color">
                   Benvenuti nella nostra pizzeria digitale innovativa, "NON SOLO
                   PIZZA"
@@ -41,8 +43,8 @@ const About = () => {
                 <a className="btn btn-primary" href="#primi">
                   Primi
                 </a>
-                <a className="btn btn-primary" href="#secondi">
-                  Secondi
+                <a className="btn btn-primary" href="#primi">
+                  Vini
                 </a>
               </span>
             </div>

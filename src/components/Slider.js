@@ -41,18 +41,6 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide
           style={{ height: "100vh" }}
-          className="swiper-pagination-progressbar-fill slider-four"
-        >
-          <h2 style={{ marginTop: "40px" }}>Bistecca Large</h2>
-        </SwiperSlide>
-        <SwiperSlide
-          style={{ height: "100vh" }}
-          className="swiper-pagination-progressbar-fill slider-five"
-        >
-          <h2 style={{ marginTop: "40px" }}>Dessert</h2>
-        </SwiperSlide>
-        <SwiperSlide
-          style={{ height: "100vh" }}
           className="swiper-pagination-progressbar-fill slider-six"
         >
           <h2 style={{ marginTop: "40px" }}>Vini casalinghi</h2>
