@@ -2,7 +2,7 @@ import React from "react";
 export function Piadine(props) {
   return (
     <>
-      <div class="card" id="piadina">
+      <div class="card">
         <div class="header">
           <div>
             <a class="title" href="#">

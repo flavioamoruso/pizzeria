@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <StyledPiadina>
-        <section>
+        <section id="piadina">
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <h2 style={{ marginTop: "14px" }}>Piadine 🌯</h2>
+            <h2 style={{ marginTop: "42px" }}>Piadine 🌯</h2>
           </div>
           <div className="position-card" style={{ marginTop: "24px" }}>
             {contents.map((contents) => (

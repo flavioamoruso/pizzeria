@@ -204,7 +204,7 @@ ul {
     -moz-justify-content: space-between;
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   
@@ -264,8 +264,8 @@ ul {
     display: -webkit-grid;
     display: grid;
     height: 100vh;
-    margin-left: 10px;
     align-items: center;
+    padding: 10px;
   }
   
   .home-hero-text {
@@ -444,6 +444,7 @@ ul {
 .card:hover{
 background-color: #fde4de;
 transition:1s;
+transform: scale(1.1);
 }
 
 .header {

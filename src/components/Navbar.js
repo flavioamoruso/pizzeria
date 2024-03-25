@@ -36,23 +36,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <nav className="nav">
-  <div className="container nav-container">
-    <header className="nav-header">
-      <Link to="/" className="nav-brand">
-        <h3>My Porfolio</h3>
-      </Link>
-      <div>
-        <button className="icon-btn btn nav-toggler" onClick={openSidebar}>
-          <FaBars className="nav-icon" />
-        </button>
-      </div>
-    </header>
-    <LinkComponent classLink="nav-links" />
-    <Switch />
-    <SocialComponent classLink="social-top" />
-  </div>
-</nav>; */
-}

@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <StyledPrimo>
-        <section>
+        <section id="primi">
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <h2 style={{ marginTop: "14px" }}>Primi piatti 🍝</h2>
+            <h2 style={{ marginTop: "42px" }}>Primi piatti 🍝</h2>
           </div>
           <div className="position-card" style={{ marginTop: "24px" }}>
             {contents.map((contents) => (

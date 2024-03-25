@@ -12,9 +12,9 @@ export default function App() {
     <>
       <StyledPizze>
         <hr />
-        <section>
+        <section id="pizza">
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <h2 style={{ marginTop: "14px" }}>Pizze 🍕</h2>
+            <h2 style={{ marginTop: "42px" }}>Pizze 🍕</h2>
           </div>
           <div className="position-card" style={{ marginTop: "24px" }}>
             {contents.map((contents) => (
