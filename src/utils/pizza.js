@@ -35,6 +35,18 @@ const pizza = [
     body: "pomodoro, mozzarella al tartufo, misto funghi, pomodorini",
     price: "9 €",
   },
+  {
+    id: "7",
+    title: "Gratta checca",
+    body: "pomodoro, datterino giallo,basilico, olio extravergine",
+    price: "9 €",
+  },
+  {
+    id: "8",
+    title: "Margherita",
+    body: "pomodoro, mozzarella,basilico,olio extravergine d'oliva",
+    price: "9 €",
+  },
 ];
 
 export default pizza;

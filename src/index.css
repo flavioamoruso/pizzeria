@@ -427,7 +427,7 @@ ul {
 .position-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .card {

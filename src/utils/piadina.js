@@ -26,13 +26,25 @@ const piadina = [
   {
     id: "5",
     title: "Piadina arrotolata bufalina",
-    body: "Crudo,mozzarella di bufala,pomodorini,aceta balsamico",
+    body: "crudo,mozzarella di bufala,pomodorini,aceta balsamico",
     price: "4 €",
   },
   {
     id: "6",
-    title: "Piadina Deutske in the dark",
-    body: "wrustel,sottiletta,olio extravergine",
+    title: "Piadina in the dark",
+    body: "wrustel,sottiletta,olio extravergine d'oliva",
+    price: "7 €",
+  },
+  {
+    id: "8",
+    title: "Ciccia timeOff",
+    body: "pomodorini,bacon,stracciatella,fagioli",
+    price: "7 €",
+  },
+  {
+    id: "9",
+    title: "vegetariana",
+    body: "insalata,mais,pomodorini,finocchi,grana padano",
     price: "7 €",
   },
 ];

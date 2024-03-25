@@ -4,6 +4,7 @@ import { Slider } from "./components/Slider";
 import About from "./components/About";
 import PizzaScreen from "./screen/PizzaScreen";
 import PiadinaScreen from "./screen/PiadinaScreen";
+import PrimoScreen from "./screen/PrimoScreen";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <About />
         <PizzaScreen />
         <PiadinaScreen />
+        <PrimoScreen />
       </section>
     </>
   );
