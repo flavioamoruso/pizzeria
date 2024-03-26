@@ -8,19 +8,19 @@ const piadina = [
   {
     id: "2",
     title: "Piadina Romagnola",
-    body: "500 g di farina 00,100 g di strutto,1 cucchiaino di bicarbonato,180 ml di acqua",
+    body: "5oo g di farina ,1oo g di strutto,1 cucchiaino di bicarbonato,18o ml di acqua",
     price: "2 €",
   },
   {
     id: "3",
     title: "Girelle di piadina mista",
-    body: "30 ginsalata mista, 80 gPhiladelphia, 80g tonno, 60 gfiordilatte",
+    body: "3o ginsalata mista, 8o gPhiladelphia, 8og tonno, 6o gfiordilatte",
     price: "5,5 €",
   },
   {
     id: "4",
     title: "Piadina con straccetti di vitello e insalata",
-    body: "200 gstraccetti (vitello), 40 gScamorza affumicata, q.b.Insalata, 35 gStrutto",
+    body: "2oo gstraccetti (vitello), 4o gScamorza affumicata, Insalata, 35 gStrutto",
     price: "6 €",
   },
   {

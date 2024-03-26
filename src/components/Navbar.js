@@ -19,9 +19,6 @@ const Navbar = () => {
                 <h3 style={{ cursor: "pointer" }}>PizzaJ</h3>
               </span>
               <span>
-                <a href="#menu">Menu'</a>
-              </span>
-              <span>
                 <a href="#prenotazione">Prenota ora</a>
               </span>
               <span>

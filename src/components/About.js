@@ -43,7 +43,7 @@ const About = () => {
                 <a className="btn btn-primary" href="#primi">
                   Primi
                 </a>
-                <a className="btn btn-primary" href="#primi">
+                <a className="btn btn-primary" href="#vini">
                   Vini
                 </a>
               </span>

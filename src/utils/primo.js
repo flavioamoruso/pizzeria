@@ -27,7 +27,7 @@ const primo = [
     id: 5,
     title: "Penne all'arrabbiata",
     body: "passato di pomdoro,'nduia,scaglie di peperoncino",
-    price: "10 € ",
+    price: "15 € ",
   },
   {
     id: 6,

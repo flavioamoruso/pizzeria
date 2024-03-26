@@ -487,3 +487,76 @@ transform: scale(1.1);
 }
 
 /* END STYLE MENU */
+
+
+
+/* background pizza */
+.bg-pizza{
+  height: 600px;
+  background: linear-gradient(#fde4de,transparent,#fff7df),url('../src/assets/image/sliderone.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 753px) {
+  .bg-pizza{
+    height: 1800px;
+  }
+}
+/* end background pizza */
+
+
+
+
+/* background primo */
+.bg-primo{
+  height: 600px;
+  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/sliderthree.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 753px) {
+  .bg-primo{
+    height: 1800px;
+  }
+}
+/* end background primo */
+
+
+
+
+
+/* background piadina */
+.bg-piadina{
+  height: 600px;
+  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/slidertwo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 753px) {
+  .bg-piadina{
+    height: 1800px;
+  }
+}
+/* end background piadina */
+
+
+
+
+/* background vino */
+.bg-vino{
+  height: 400px;
+  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/slidersix.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 753px) {
+  .bg-vino{
+    height: 900px;
+  }
+}
+
+/* end background vino */
