@@ -364,42 +364,28 @@ ul {
 
 .slider-one{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/sliderone.jpg');
+  background: linear-gradient(#fff7df,transparent,#fde4de),url('../src/assets/image/sliderone.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .slider-two{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/slidertwo.jpg');
+  background: linear-gradient(#fff7df,transparent,#fde4de),url('../src/assets/image/slidertwo.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .slider-three{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/sliderthree.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.slider-four{
-  height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/sliderfour.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.slider-five{
-  height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/sliderfive.jpg');
+  background: linear-gradient(#fff7df,transparent,#fde4de),url('../src/assets/image/sliderthree.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .slider-six{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/slidersix.jpg');
+  background: linear-gradient(#fff7df,transparent,#fde4de),url('../src/assets/image/slidersix.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -545,10 +531,13 @@ transform: scale(1.1);
 
 
 
+
+
+
 /* background vino */
 .bg-vino{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/bgVini.jpg');
+  background: linear-gradient(#fff7df,transparent,#fde4de),url('../src/assets/image/bgVini.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -560,3 +549,17 @@ transform: scale(1.1);
 }
 
 /* end background vino */
+
+
+
+
+
+
+
+/* CONTACT STYLE */
+
+
+
+
+
+/* END CONTACT STYLE */

@@ -39,13 +39,13 @@ const piadina = [
     id: "8",
     title: "Ciccia timeOff",
     body: "pomodorini,bacon,stracciatella,fagioli",
-    price: "7 €",
+    price: "5 €",
   },
   {
     id: "9",
     title: "vegetariana",
     body: "insalata,mais,pomodorini,finocchi,grana padano",
-    price: "7 €",
+    price: "7,5 €",
   },
 ];
 

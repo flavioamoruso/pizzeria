@@ -6,6 +6,7 @@ import PizzaScreen from "./screen/PizzaScreen";
 import PiadinaScreen from "./screen/PiadinaScreen";
 import PrimoScreen from "./screen/PrimoScreen";
 import VinoScreen from "./screen/VinoScreen";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <PiadinaScreen />
         <PrimoScreen />
         <VinoScreen />
+        <Contact />
       </section>
     </>
   );
