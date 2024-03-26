@@ -493,7 +493,7 @@ transform: scale(1.1);
 /* background pizza */
 .bg-pizza{
   height: 600px;
-  background: linear-gradient(#fde4de,transparent,#fff7df),url('../src/assets/image/sliderone.jpg');
+  background: linear-gradient(#fde4de,transparent,#fff7df),url('../src/assets/image/bgPizza.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -511,7 +511,7 @@ transform: scale(1.1);
 /* background primo */
 .bg-primo{
   height: 600px;
-  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/sliderthree.jpg');
+  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/bgPrimo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -530,7 +530,7 @@ transform: scale(1.1);
 /* background piadina */
 .bg-piadina{
   height: 600px;
-  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/slidertwo.jpg');
+  background: linear-gradient(#fff7df,transparent,#fff7df),url('../src/assets/image/bgPiadina.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -548,7 +548,7 @@ transform: scale(1.1);
 /* background vino */
 .bg-vino{
   height: 400px;
-  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/slidersix.jpg');
+  background: linear-gradient(#fff7df,transparent),url('../src/assets/image/bgVini.jpg');
   background-size: cover;
   background-position: center;
 }

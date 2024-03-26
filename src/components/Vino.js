@@ -4,7 +4,7 @@ export function Vini(props) {
   return (
     <>
       <div class="card" id="primo">
-        <div class="header">
+        <div class="header" data-aos="fade-up">
           <div>
             <a class="title" href="#">
               {props.title}
