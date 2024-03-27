@@ -634,7 +634,24 @@ transform: scale(1.1);
 }
 
 
-.tracking-in-contract {
-	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+/* FOOTER STYLE */
+.footer {
+  background-color: var(--primary);
+  height: 4rem;
 }
+
+.footer-container {
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  font-variant: small-caps;
+  color: black;
+}
+
+.footer-text {
+  font-size: 1.03em !important;
+}
+/* END FOOTER STYLE */

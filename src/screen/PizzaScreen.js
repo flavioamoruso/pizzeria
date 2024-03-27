@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import { Pizze } from "../components/Pizza";
 import contents from "../utils/pizza";
+
+function Animation() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+}
 
 export default function App() {
   return (
@@ -23,3 +30,5 @@ export default function App() {
     </>
   );
 }
+
+export { Animation };
