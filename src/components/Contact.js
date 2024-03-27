@@ -9,7 +9,29 @@ const StyledContact = styled.div`
 const Contact = () => {
   return (
     <>
-      <StyledContact></StyledContact>
+      <StyledContact>
+        <form>
+          {/* <input placeholder="Nome" type="text" className="input" />
+
+          <input placeholder="Nome" type="text" className="input" /> */}
+
+          <div class="contact-form">
+            <span class="heading">Prenota qui sotto</span>
+
+            <label for="name">Name:</label>
+            <input type="text" required="" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="" />
+            <button
+              className="btn"
+              type="submit"
+              style={{ marginRight: "12px" }}
+            >
+              Invia
+            </button>
+          </div>
+        </form>
+      </StyledContact>
     </>
   );
 };
