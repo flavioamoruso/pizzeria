@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledContact = styled.div`
   background-color: var(--main);
-  height: 50vh;
+  height: 370px;
 `;
 
 const Contact = () => {
@@ -17,7 +17,12 @@ const Contact = () => {
             </span>
 
             <label for="name">Nome:</label>
-            <input type="text" name="name" required="" />
+            <input
+              type="text"
+              placeholder="Tamarindo"
+              name="name"
+              required=""
+            />
             <label for="email">Numero:</label>
             <input
               type="number"
