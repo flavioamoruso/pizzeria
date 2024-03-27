@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 
 const StyledContact = styled.div`
@@ -10,18 +10,21 @@ const Contact = () => {
   return (
     <>
       <StyledContact>
-        <form>
-          {/* <input placeholder="Nome" type="text" className="input" />
+        <form action="https://formspree.io/f/myyrneyo" method="POST">
+          <div class="contact-form" data-aos="fade-left">
+            <span id="prenotazione" className="heading">
+              Prenota qui sotto
+            </span>
 
-          <input placeholder="Nome" type="text" className="input" /> */}
-
-          <div class="contact-form">
-            <span class="heading">Prenota qui sotto</span>
-
-            <label for="name">Name:</label>
-            <input type="text" required="" />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required="" />
+            <label for="name">Nome:</label>
+            <input type="text" name="name" required="" />
+            <label for="email">Numero:</label>
+            <input
+              type="number"
+              name="number"
+              required=""
+              placeholder="+39 3889087651"
+            />
             <button
               className="btn"
               type="submit"
