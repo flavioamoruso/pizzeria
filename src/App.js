@@ -7,6 +7,7 @@ import PiadinaScreen from "./screen/PiadinaScreen";
 import PrimoScreen from "./screen/PrimoScreen";
 import VinoScreen from "./screen/VinoScreen";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <PrimoScreen />
         <VinoScreen />
         <Contact />
+        <Footer />
       </section>
     </>
   );
