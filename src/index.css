@@ -141,7 +141,7 @@ ul {
   
   .icon-btn {
     padding: 0.4rem 0.2rem;
-    background-color: transparent;
+    background-color: black;
     box-shadow: unset;
     justify-self: center;
   }
@@ -636,7 +636,7 @@ transform: scale(1.1);
 
 /* FOOTER STYLE */
 .footer {
-  background-color: var(--primary);
+  background-color: #ffafaf;
   height: 4rem;
 }
 
