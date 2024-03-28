@@ -658,6 +658,19 @@ transform: scale(1.1);
 
 
 /* LOADER STYLE */
+
+/* .loader {
+  --clr: var(--secondary);
+  background-color: var(--primary);
+  --load-time: 2s;
+  outline: 5px solid var(--clr);
+  outline-offset: 5px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5rem;
+  padding: 1rem 5rem;
+}
+
 .spinner {
   display: inline-block;
   position: absolute;
@@ -667,19 +680,6 @@ transform: scale(1.1);
   transform: translate(-50%, -50%);
 }
 
-.loader {
-  /* color of choise */
-  --clr: var(--secondary);
-  background-color: var(--primary);
-  /* loading time of choice */
-  --load-time: 2s;
-  outline: 5px solid var(--clr);
-  outline-offset: 5px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 5rem;
-  padding: 1rem 5rem;
-}
 
 .loader::after {
   content: '';
@@ -701,6 +701,73 @@ transform: scale(1.1);
   100% {
     width: 100%;
   }
+} */
+
+
+
+.lds-roller {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  margin-top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.spinner {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  margin-top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* END LOADER */
+.spinner div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  animation: spinner-4t3wzl 2s infinite linear;
+}
+
+.spinner div:nth-child(1) {
+  left: 0;
+  animation-delay: 0.15s;
+  background-color: var(--secondary);
+}
+
+.spinner div:nth-child(2) {
+  left: 25%;
+  animation-delay: 0.3s;
+  background-color: var(--secondary);
+}
+
+.spinner div:nth-child(3) {
+  left: 50%;
+  animation-delay: 0.45s;
+  background-color: var(--secondary);
+}
+
+.spinner div:nth-child(4) {
+  left: 75%;
+  animation-delay: 0.6s;
+  background-color: var(--secondary);
+}
+
+.spinner div:nth-child(5) {
+  left: 100%;
+  animation-delay: 0.75s;
+  background-color:var(--secondary);
+}
+
+@keyframes spinner-4t3wzl {
+  0% {
+    transform: rotate(0deg) translateX(-100%);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(-100%);
+  }
+}
+

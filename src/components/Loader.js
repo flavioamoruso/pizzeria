@@ -2,11 +2,13 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <>
-      <div className="spinner">
-        <div class="loader"></div>
-      </div>
-    </>
+    <div class="spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   );
 };
 
