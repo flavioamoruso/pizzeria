@@ -22,28 +22,28 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide
-          style={{ height: "100vh" }}
+          style={{ height: "100vh", marginTop: "500px" }}
           className="swiper-pagination-progressbar-fill slider-one"
         >
-          <h2 style={{ marginTop: "40px" }}>Pizza Tomato</h2>
+          <h2 style={{ marginTop: "90px" }}>Pizza Tomato</h2>
         </SwiperSlide>
         <SwiperSlide
           style={{ height: "100vh" }}
           className="swiper-pagination-progressbar-fill slider-two"
         >
-          <h2 style={{ marginTop: "40px" }}>Piadina Araba</h2>
+          <h2 style={{ marginTop: "90px" }}>Piadina Araba</h2>
         </SwiperSlide>
         <SwiperSlide
           style={{ height: "100vh" }}
           className="swiper-pagination-progressbar-fill slider-three"
         >
-          <h2 style={{ marginTop: "40px" }}>Ragu' Peruviano</h2>
+          <h2 style={{ marginTop: "90px" }}>Ragu' Peruviano</h2>
         </SwiperSlide>
         <SwiperSlide
           style={{ height: "100vh" }}
           className="swiper-pagination-progressbar-fill slider-six"
         >
-          <h2 style={{ marginTop: "40px" }}>Vini casalinghi</h2>
+          <h2 style={{ marginTop: "90px" }}>Vini casalinghi</h2>
         </SwiperSlide>
       </Swiper>
     </>

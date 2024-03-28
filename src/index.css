@@ -186,7 +186,7 @@ ul {
   
 /* NAVBARSTYLE */
   .nav {
-    background-color: var(--nav-colors-2);
+    background-color: var(--primary);
     height: 4rem;
     box-shadow: var(--light-shadow);
     display: flex;
