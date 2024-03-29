@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       <StyledContact>
         <form action="https://formspree.io/f/myyrneyo" method="POST">
-          <div class="contact-form" data-aos="fade-left">
+          <div class="contact-form">
             <span id="prenotazione" className="heading">
               Prenota qui sotto
             </span>

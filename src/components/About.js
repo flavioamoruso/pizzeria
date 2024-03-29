@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Lottie from "react-lottie";
 import animationData from "../assets/animation/animationPizza.json";
